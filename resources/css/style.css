@@ -1,0 +1,291 @@
+html{
+    width: 100%;
+    scroll-behavior: smooth;
+}
+body{
+    width: fit-content;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
+    
+}
+
+/* Header CSS */
+.fixed-top{
+    background-color: white;
+    border-bottom: 4px solid #ebdcff;
+}
+.nav-item {
+    padding: 0 10px;
+}
+.nav-link{
+    font-weight: 400;
+}
+.navbar-light .navbar-toggler {
+    border-color: white;
+}
+button:focus{
+    outline: none;
+}
+/* Header CSS */
+
+.banner-section{
+    height: 140vh;
+    background:  url(../img/banner-img-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-icon{
+ 
+    color: #FFF;
+    
+}
+
+/* === banner section === */
+.img21{
+    margin-top: 38px;
+}
+.b-heading1{
+  
+    margin-left: 20%;
+    margin-top: 30%;
+    font-size: 63px;
+   
+}
+
+.card-w{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+}
+
+.tr1-img{
+    width: 60px;
+    height: 60px;
+    margin-left: 35%;
+}
+.feature-section .col-md-6 .cardf .card-title{
+    
+
+    
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+/* === end banner section === */
+.heading21{
+
+}
+.icon-bg{
+    background: linear-gradient(#914AFF,#210053); 
+    width: 50px;
+    height: 50px;
+    border-radius: 60px;
+  padding: 10px;
+  font-size: 30px;
+  margin-left: 40%;
+  margin-top: 20px;
+}
+.feature-sections .card-title{
+    font-weight: 600;
+    font-size: 35px;
+}
+
+/* ====*** ==== */
+
+p{
+    color: #92817a;
+}
+
+.img1{
+    margin-left: 100px;
+}
+.heading2{
+    font-size: 45px;
+    margin-top: 150px;
+    margin-right: 20px;
+   
+}
+.p1{
+    font-size: 20px;
+   margin-right: 50px;
+}
+
+.btn_all{
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 35px;
+    border:none;
+    background: -webkit-linear-gradient(#914AFF,#210053);
+    background: -moz-linear-gradient(#914AFF,#210053);
+    background: -o-linear-gradient(#914AFF,#210053);
+    background: linear-gradient(#914AFF,#210053);
+}
+.btn_all:hover{
+    color: #000000;
+}
+.btn_all:focus{
+    background-color: #6734b3;
+    color: white;
+    border-color: none;
+    outline: none;
+}
+.btn-all2{
+    margin-left: 20%;
+    margin-top: 16px;
+}
+.card2{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* === price === */
+/* .card-btn1{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 20px 80px;
+    border-radius: 59px;
+    border:2px solid #210053;
+    background: none;
+}
+
+.card-btn1:hover{
+    background: linear-gradient(#914AFF,#210053); 
+    border: none;
+    color: #fff;
+} */
+
+.select-btn{
+    border: 1px solid #210053;
+    background: #fff;
+    border-radius: 59px;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-bottom: 25px;
+}
+
+.select-btn:hover{
+    background: linear-gradient(#914AFF,#210053);
+    color: #fff;
+}
+
+
+/* === data by e-app === */
+.easyh2{
+    text-transform: capitalize;
+}
+.bg-perpel{
+    background: linear-gradient(#914AFF,#210053); 
+
+}
+.correct{
+    color: linear-gradient(#914AFF,#210053);
+}
+.btn1{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    padding: 20px 80px;
+    border-radius: 59px;
+    border:1px solid #210053;
+    background: #fff;
+    
+}
+.btn1 .float-left{
+    transition: none;
+}
+.btn1:hover{
+    background: linear-gradient(#914AFF,#210053); 
+    color: #fff;
+    transition: 0.5s;
+}
+
+.btn1:hover .box{
+    color: #fff;
+
+}
+
+.float-left .fa{
+    font-size: 50px;
+}
+
+/* .btn1 .android_icon:hover,span:hover,.google:hover{
+    color: #fff;
+} */
+/* .android_icon{
+font-size: 50px;
+   margin-top: 10px;
+   color: #000;
+} */
+ .btn1 .android_icon:hover,span:hover{
+    color: #fff;
+}
+span{
+    font-size: 12px;
+    color:  #000 ;
+}
+
+.google{
+    font-size: 16px;
+    color: #000;
+}
+
+
+/* ==== contact === */
+.stay{
+    text-transform: capitalize;
+}
+.form-group{
+    margin-right: 50px;
+}
+.c_submit{
+    margin-top: 30px;
+    margin-left: 40%;
+}
+
+
+/* === footer === */
+.footer-sectionand{
+    background: #000;
+    margin-top: 20px;
+}
+.footer-sectionand ul li{
+    list-style: none;
+
+}
+
+.footer-sectionand ul li a{
+    color: #92817a;
+text-decoration: none;
+font-size: 14px;
+}
+
+.footer-sectionand h5{
+    font-size: 18px;
+
+}
+
+.eapp-p{
+    font-size: 13px;
+}
+/* ==== social link === */
+.fb{
+    color: #3b5998;
+}
+.twitter{
+    
+    color: #00acee;
+}
+.google1{
+    color:  #D44638;
+}
+.brd{
+    font-size: 12px;
+    border-top: 1px solid #92817a;
+}
